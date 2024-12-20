@@ -1,0 +1,97 @@
+/* CSS for Navigation Bar */
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--seondcolor);
+    padding: 2rem 7%;
+    z-index: 100000;
+    
+}
+.header img{
+    width: 90px;
+}
+.icons div{
+    margin-left: 1rem;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+.icons div:hover{
+    color: var(--maincolor);
+
+.navbar a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #f0f0f0;
+    color: #555;
+    border-radius: 5px;
+}
+
+/* CSS for Search and Menu Icons */
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icons div {
+    font-size: 1.5rem;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.icons div:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+/* CSS for Search Form */
+#search-form {
+    display: none; /* Hide search form by default */
+    margin-right: 20px;
+}
+
+#search-bar:hover + #search-form,
+#search-form:hover {
+    display: block; /* Show search form on hover */
+}
+
+/* CSS for Menu Toggle */
+#menu-bar {
+    display: none; /* Hide menu bar by default */
+}
+
+@media (max-width: 768px) {
+    #menu-bar {
+        display: block; /* Show menu bar for smaller screens */
+    }
+
+    .navbar {
+        display: none; /* Hide navbar for smaller screens by default */
+        flex-direction: column;
+        background-color: #f0f0f0;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+    .navbar a {
+        margin: 5px 0;
+    }
+
+    #menu-bar:hover + .navbar,
+    .navbar:hover {
+        display: flex; /* Show navbar on hover or click */
+    }
+}

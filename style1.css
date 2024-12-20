@@ -1,0 +1,200 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Lighter gray background */
+	text-align: center;
+	
+	
+
+}
+
+.container {
+    max-width: 500px; /* Increased container width */
+    margin: 20px auto;
+    padding: 40px; /* Increased padding for better spacing */
+    background-color: #ffffff; /* White background */
+    border-radius: 10px; /* Slightly rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+
+.contact-info {
+    margin-bottom: 20px;
+    text-align: center; /* Align contact info text to the left */
+}
+
+.admin-box {
+    width: 50%; /* Set the width of the box */
+    margin: 0 auto; /* Center the box horizontally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+	 margin-bottom: 20px;
+    text-align: center; /* Center align the content */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px; /* Increased margin-bottom for better separation */
+    color: #333333; /* Darker heading color */
+}
+
+form {
+    margin-top: 30px; /* Increased margin-top for better separation */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px; /* Reduced margin-bottom for compactness */
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"],
+input[type="time"],
+select {
+    width: 100%;
+    padding: 12px; /* Increased padding for better input height */
+    margin-bottom: 20px; /* Increased margin-bottom for better spacing */
+    border: 1px solid #ced4da; /* Lighter border color */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.form-container {
+    text-align: center; /* Center align the content */
+    margin-top: 20px; /* Add some top margin for spacing */
+}
+
+.form-container input[type="submit"] {
+    width: 300px; /* Set the width of the submit button */
+    padding: 8px; /* Add padding to the button for better appearance */
+    background-color: grey; /* Button background color */
+    color: #ffffff; /* Button text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add some border radius for rounded corners */
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: black; /* Darker background color on hover */
+}
+
+
+.link {
+    text-align: center;
+    margin-top: 20px; /* Increased margin-top for better spacing */
+}
+
+.link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav {
+    background-color: #343a40; /* Dark background color */
+    padding: 10px 0;
+    border-radius: 5px; /* Slightly rounded corners */
+    text-align: center; /* Center align navigation items */
+}
+
+nav h1 {
+    color: #ffffff; /* White heading color */
+    text-align: center;
+    margin: 0;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px; /* Padding for navigation links */
+}
+
+nav a:hover {
+    background-color: #495057; /* Darker background color on hover */
+    border-radius: 5px; /* Rounded corners on hover */
+}
+
+/* Table styles */
+table {
+    width: 100%; /* Set table width to 100% */
+    border-collapse: collapse; /* Collapse table borders */
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Table header styles */
+th {
+    background-color: #f2f2f2; /* Light gray background color */
+    border: 1px solid #dddddd; /* Gray border */
+    padding: 8px; /* Padding */
+    text-align: left; /* Left-align text */
+}
+
+/* Table cell styles */
+td {
+    border: 1px solid #dddddd; /* Gray border */
+    padding: 8px; /* Padding */
+}
+
+td.date, td.status {
+    background-color: rgba(255, 255, 255, 0.5); /* White background color */
+}
+
+/* Availability status styles */
+.availability {
+    background-color: #4caf50; /* Green background color */
+    color: #ffffff; /* White text color */
+    padding: 6px 10px; /* Padding */
+    border-radius: 4px; /* Rounded corners */
+    text-align: center;
+}
+
+.not-available {
+    background-color: #ff6666; /* Red background color */
+    color: #ffffff; /* White text color */
+    padding: 6px 10px; /* Padding */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.total-cost-container {
+    text-align: center;
+}
+
+
+.quote-container {
+            margin-top: 40px;
+            text-align: center;
+        }
+        .quote {
+            font-style: italic;
+            color: #666;
+        }

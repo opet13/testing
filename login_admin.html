@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body background="images/grey orange.png">
+
+
+	<header class="header">
+       <nav class="navbar">
+           <a href="index.html">Home</a>
+		   <a href="login.html">Log In</a>
+		   <a href="equipment.php">Reserve A Studio</a>
+		   <a href="booking_info.php">Booking Info</a>
+           <a href="about.html">About</a>
+           <a href="contact.html">Contact</a>
+		   <a href="location.html">Location</a>
+		   <a href="admin.php">Admin</a>
+		   <a href="logout.php">Log Out</a>
+       </nav>
+       
+   </header>
+
+
+
+    <div class="container">
+        <h1>Admin Login</h1>
+        <form action="login_admin.php" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username_admin" required><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password_admin" required><br>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</body>
+</html>

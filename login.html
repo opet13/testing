@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<header class="header">
+       <nav class="navbar">
+           <a href="index.html">Home</a>
+		   <a href="login.html">Log In</a>
+		   <a href="equipment.php">Reserve A Studio</a>
+		   <a href="booking_info.php">Booking Info</a>
+           <a href="about.html">About</a>
+           <a href="contact.html">Contact</a>
+		   <a href="location.html">Location</a>
+		   <a href="admin.php">Admin</a>
+		   <a href="logout.php">Log Out</a>
+       </nav>
+       
+   </header>
+
+<body background="images/grey orange.png">
+    
+    <div class="container">
+        <h1>Login</h1>
+        <form action="login.php" method="post">
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" aria-label="Username" required><br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" aria-label="Password" required><br>
+            <input type="submit" value="Login">
+        </form>
+        <div class="link">
+    <a href="forgot_password.php">Forgot Password?</a>
+</div>
+
+	
+
+    </div>
+    <footer>
+        &copy; 2024 1DANCE STUDIO. All rights reserved.
+    </footer>
+	
+	<script src="script.js"></script>
+	
+</body>
+
+</html>
